@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>VanguardGames</title>
+  <script src="./scrips.js"></script>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body background="">
+  <center><p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><h1 id="visor_imagenes" style="color: white;">Vanguard <img src="vanguard.png" alt="logo" height="70" width="70"> Games</h1></p></center>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><input type="button" value="VanguardGames" onClick=opt();></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ofertas.html">Ofertas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categorias
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#" onMouseOver=opt(1)>Accion</a>
+            <a class="dropdown-item" href="#" onMouseOver=opt(2)>RPG</a>
+            <a class="dropdown-item" href="#" onMouseOver=opt(3)>Terror</a>
+            <a class="dropdown-item" href="#" onMouseOver=opt(4)>Aventura</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="contenido">
+    <h2 style="color: white;">Catalogo</h2>
+    <p><center><h3 style="color: white;">Esta página web es sobre videojuegos. Aquí encontrarás información sobre los últimos lanzamientos, las mejores reseñas y las noticias más relevantes del mundo de los videojuegos.</h3></center></p>
+
+    <section id="contenido">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://sm.ign.com/t/ign_latam/screenshot/default/screen-shot-2016-06-28-at-113016-am_9wsk.1200.png" class="card-img-top" alt="7 Days to Die">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>7 Days to Die <br> $12.03</h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://www.gamenguides.com/wp-content/uploads/2020/01/escape-from-tarkov-0107.jpg" class="card-img-top" alt="Escape from Tarkov">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Escape from Tarkov <br> $12.30</h3></center> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://assets1.ignimgs.com/2017/07/31/star-wars-battlefront-2---button-1501544517635.jpg" class="card-img-top" alt="Star Wars Battlefront 2">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Star Wars Battlefront 2 <br> $32.00</h3></center> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://4.bp.blogspot.com/-piCcx-qb2oM/WA5DIiFfKYI/AAAAAAAAn3c/hBU1KaF1wE4gZHt0CIg3hEe-StWIxcO-ACLcB/s1600/Battlefield%2B1%2BA.jpg" class="card-img-top" alt="Battlefield">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Battlefield 1<br> $25.00 </h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://i.ytimg.com/vi/-PAdQ7DgV3o/maxresdefault.jpg" class="card-img-top" alt="Battlefield 5">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Battlefield 5 <br> $30.00 </h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://th.bing.com/th/id/R.3ecb6279a6fc0bb95097effd220c3a91?rik=vXMaG9deMq3SXg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-sGc3DGbxPQc%2fUqyX9lFdwzI%2fAAAAAAAAAuU%2fZ96QlvoIFRI%2fs1600%2fbattlefield_4_wallpaper_psd_by_aspera_destroyer_by_virtualcinematics-d6a0a8l.png&ehk=WkAO7jfcIYOzIsWgGJUVvt%2b5PaIYIS4EEySNMCE80OA%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Battlefield 4">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Battlefield 4 <br> $21.50 </h3></center></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://i.ytimg.com/vi/fPM7kSkgoyA/maxresdefault.jpg" class="card-img-top" alt="Dead Space">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Dead Space <br> $34.00 </h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://th.bing.com/th/id/R.32c2e5a9d3f6ad475b4a49792609f7f5?rik=xeAooDpb8TIfIQ&riu=http%3a%2f%2fwww.hdwallpapers.in%2fdownload%2fdead_space_3_awakened-1920x1080.jpg&ehk=Z93XU47e6oEgmnT3SYHsZoQJzCiLPL3r%2b3jMVuaXZ%2fc%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Dead Space 3 Awekened">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Dead Space 3 Awekened <br> $42.00 </h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://th.bing.com/th/id/R.bc53ee1f45f4eeba280c80a15b37b9f5?rik=YusAOMt1VOgCFg&pid=ImgRaw&r=0" class="card-img-top" alt="Call of Duty Black Ops 2">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Call of Duty Black Ops 2 <br> $15.50 </h3></center></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://www.icrewplay.com/wp-content/uploads/2021/09/God-of-War-Ragnarok-2.jpg" class="card-img-top" alt="God of War Ragnarok">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>God of War Ragnarok <br> $50.40</h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://assets-prd.ignimgs.com/2021/06/12/elden-ring-button-03-1623460560664.jpg" class="card-img-top" alt="Elden Ring">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Elden Ring <br> $80.00</h3></center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://game-tips.ru/game_fps_test/games2/Party%20Animals/Party%20Animals_main_image_0.jpg?x76266" class="card-img-top" alt="Party Animals">
+              <div class="card-body">
+                <p class="card-text" style="color: black;"><center><h3>Party Animals <br>$38.00</h3></center></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <p>¿Eres un fan de los videojuegos? ¿Te gustaría saber más sobre ellos? ¡Visita esta página web!</p>
+  </section>
+
+
+  <footer class="py-4 text-center footer">
+    <p>&copy; 2023 VanguardGames. Todos los derechos reservados. 
+  <a href="/terminos">Términos y condiciones</a> | 
+  <a href="/privacidad">Política de privacidad</a> | 
+  <a href="/contacto">Contacto</a> | 
+  <a href="/faq">Preguntas frecuentes</a> |  
+  <a href="/sitemap">Mapa del sitio</a>
+</p>
+<p>Esta página web es solo para fines informativos y no constituye asesoramiento legal, financiero o profesional. Consulta siempre a un experto antes de tomar decisiones importantes.</p>
+    </footer>
+
+
+</body>
+</html>

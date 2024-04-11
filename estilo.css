@@ -1,0 +1,35 @@
+
+  input[id="caja"] {
+    width: 100px;
+    height: 30px;
+    background-color: #0000ff;
+    border-radius: 5px;
+    float: right;
+    border: 1px solid blue;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  body {
+    background-image: url('https://i.ytimg.com/vi/2F1z0TaBtRM/hqdefault.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  
+  p,h1,h2,h3,h4,h5 {
+    color:white;
+}
+
+#visor_imagenes {
+  text-align: center;
+  color: #b31a1a;
+  background-color: #4b69ee;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* This ensures the image maintains its aspect ratio */
+}
